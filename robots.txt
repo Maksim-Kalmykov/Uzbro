@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Sitemap: https://uzbro.ru/sitemap.xml
+
+Allow: /js/sw.js
+Disallow: /js/app.js
+Disallow: /js/particles.min.js
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /icons/
+Disallow: /offline.html

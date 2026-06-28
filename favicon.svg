@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512"><metadata><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/"><rdf:Description><dc:creator>RealFaviconGenerator</dc:creator><dc:source>https://realfavicongenerator.net</dc:source></rdf:Description></rdf:RDF></metadata><defs>
+    <clipPath id="roundedCorner">
+      <rect x="0" y="0" width="512" height="512" rx="96" ry="96"></rect>
+    </clipPath>
+  </defs><rect width="512" height="512" rx="96" ry="96" fill="#000000"></rect><g clip-path="url(#roundedCorner)">
+    <!-- Левое лезвие ножниц (отступ сверху 32 пикселя) -->
+    <polygon points="32,32 210,260 175,295 160,295 215,272 240,260" fill="#FFFFFF"></polygon>
+    <polygon points="32,32 210,260 215,250 190,170 32,32" fill="#DDDDDD"></polygon>
+    
+    <!-- Правое лезвие ножниц (отступ сверху 32 пикселя) -->
+    <polygon points="480,32 302,260 337,295 352,295 297,272 272,260" fill="#FFFFFF"></polygon>
+    <polygon points="480,32 302,260 297,250 322,170 480,32" fill="#DDDDDD"></polygon>
+    
+    <!-- Винт ножниц -->
+    <circle cx="256" cy="275" r="20" fill="#FFFFFF"></circle>
+    <circle cx="256" cy="275" r="12" fill="#000000"></circle>
+    <circle cx="256" cy="275" r="5" fill="#FFFFFF"></circle>
+    
+    <!-- Левая ручка ножниц -->
+    <path d="M125 315 C95 365,80 425,100 460 C120 495,175 500,210 470 C230 450,225 410,200 375" fill="none" stroke="#FFFFFF" stroke-width="20" stroke-linecap="round"></path>
+    <path d="M140 350 C120 385,115 425,135 445 C155 465,185 455,190 430 C195 405,178 375,165 360" fill="none" stroke="#000000" stroke-width="7" stroke-linecap="round"></path>
+    
+    <!-- Правая ручка ножниц -->
+    <path d="M387 315 C417 365,432 425,412 460 C392 495,337 500,302 470 C282 450,287 410,312 375" fill="none" stroke="#FFFFFF" stroke-width="20" stroke-linecap="round"></path>
+    <path d="M372 350 C392 385,397 425,377 445 C357 465,327 455,322 430 C317 405,334 375,347 360" fill="none" stroke="#000000" stroke-width="7" stroke-linecap="round"></path>
+    
+    <!-- Блик на левом лезвии -->
+    <polygon points="62,62 210,240 218,232 82,82" fill="#FFFFFF" opacity="0.3"></polygon>
+    
+    <!-- Блик на правом лезвии -->
+    <polygon points="450,62 302,240 294,232 430,82" fill="#FFFFFF" opacity="0.3"></polygon>
+  </g><rect x="2" y="2" width="508" height="508" rx="94" ry="94" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.15"></rect></svg>

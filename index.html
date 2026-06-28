@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, viewport-fit=cover" />
+
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="icon" type="image/png" href="./icons/favicon-96x96.png" sizes="96x96" />
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png" />
+    <link rel="manifest" href="./manifest.json" />
+
+    <meta name="apple-mobile-web-app-title" content="УЗБРО Барбершоп" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="mobile-web-app-capable" content="yes" />
+
+    <title>УЗБРО | Барбершоп в Омске — Мужские стрижки, бритьё бороды</title>
+    <meta name="description" content="Барбершоп Узбро в Омске. Мужские стрижки, бритье опасной бритвой, моделирование бороды. Мастер с 10-летним стажем. Запись онлайн. ТЦ Миллениум." />
+    <meta name="keywords" content="барбершоп Омск, мужская стрижка Омск, бритье бороды Омск, барбер Омск, УЗБРО, стрижка бороды, опасное бритье, мужской парикмахер Омск" />
+    <meta name="author" content="УЗБРО Барбершоп" />
+    <meta name="robots" content="index, follow" />
+
+    <meta property="og:title" content="УЗБРО | Барбершоп в Омске" />
+    <meta property="og:description" content="Мужские стрижки, бритье опасной бритвой, моделирование бороды. Запись онлайн." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://uzbro.ru" />
+    <meta property="og:locale" content="ru_RU" />
+
+    <link rel="canonical" href="https://uzbro.ru" />
+
+    <link rel="preload" href="fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="fonts/Inter-Bold.woff2" as="font" type="font/woff2" crossorigin />
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "УЗБРО Барбершоп",
+            "alternateName": "УЗБРО",
+            "image": "https://uzbro.ru/images/1-1.jpg",
+            "description": "Барбершоп в Омске. Мужские стрижки, бритье опасной бритвой, моделирование бороды. Мастер с 10-летним стажем.",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "ул. Фрунзе 1 корпус 4, павильон 23",
+                "addressLocality": "Омск",
+                "addressRegion": "Омская область",
+                "postalCode": "644043",
+                "addressCountry": "RU"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 54.993597,
+                "longitude": 73.356922
+            },
+            "telephone": "+79069935630",
+            "priceRange": "₽400-₽2000",
+            "openingHours": ["Mo-Su 09:00-22:00"],
+            "sameAs": [
+                "https://t.me/+79069935630",
+                "https://api.whatsapp.com/send/?phone=79069935630"
+            ],
+            "url": "https://uzbro.ru"
+        }
+    </script>
+</head>
+<body>
+
+<div id="particles-js" aria-hidden="true"></div>
+
+<span class="floating-object" aria-hidden="true"><span class="fas fa-fist-raised"></span></span>
+<span class="floating-object" aria-hidden="true"><span class="fas fa-scissors"></span></span>
+<span class="floating-object" aria-hidden="true"><span class="fas fa-crown"></span></span>
+<span class="floating-object" aria-hidden="true"><span class="fas fa-fist-raised"></span></span>
+<span class="floating-object" aria-hidden="true"><span class="fas fa-fist-raised"></span></span>
+<span class="floating-object" aria-hidden="true"><span class="fas fa-crown"></span></span>
+<span class="floating-object" aria-hidden="true"><span class="fas fa-fist-raised"></span></span>
+<span class="floating-object" aria-hidden="true"><span class="fas fa-scissors"></span></span>
+<span class="floating-object" aria-hidden="true"><span class="fas fa-crown"></span></span>
+<span class="floating-object" aria-hidden="true"><span class="fas fa-fist-raised"></span></span>
+<span class="floating-object" aria-hidden="true"><span class="fas fa-scissors"></span></span>
+<span class="floating-object" aria-hidden="true"><span class="fas fa-crown"></span></span>
+
+<header class="page-header" role="banner">
+    <div class="container">
+        <div class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <span class="logo__title glitch-text">УЗБРО</span>
+                    <p class="logo__subtitle">МУЖСКИЕ СТРИЖКИ</p>
+                </div>
+
+                <nav class="nav-links" aria-label="Главная навигация">
+                    <a href="#services" class="nav-link">УСЛУГИ</a>
+                    <a href="#parallax-combined" class="nav-link">О НАС</a>
+                    <a href="#info" class="nav-link">КОНТАКТЫ</a>
+                    <a href="https://n2133024.yclients.com/" target="_blank" class="btn btn--header btn--pulse" rel="noopener noreferrer">ЗАПИСАТЬСЯ</a>
+                    <button class="theme-switch-icon" id="theme-toggle-icon" aria-label="Переключить тему">
+                        <span class="fas fa-sun"></span>
+                    </button>
+                </nav>
+
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Открыть меню" aria-expanded="false">
+                    <span class="fas fa-bars"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="mobile-nav" id="mobileNav">
+        <a href="#services" class="nav-link">УСЛУГИ</a>
+        <a href="#parallax-combined" class="nav-link">О НАС</a>
+        <a href="#info" class="nav-link">КОНТАКТЫ</a>
+        <div class="mobile-theme-icon" id="mobile-theme-icon">
+            <span class="fas fa-sun"></span>
+            <span class="theme--padding">Тема</span>
+        </div>
+    </div>
+</header>
+
+<main id="main" role="main">
+    <section class="hero" id="heroSection" aria-label="Главный баннер">
+        <div class="hero__bg" id="heroBg" aria-hidden="true"></div>
+        <div class="container hero__content">
+            <div>
+                <span class="hero__badge fade-on-scroll fade-left">ОМСК • ТЦ МИЛЛЕНИУМ</span>
+                <h1 class="hero__title glitch-text fade-on-scroll fade-left">ВАШ СТИЛЬ<br>НАША БРИТВА<br>ОБЩИЙ УСПЕХ</h1>
+                <div class="hero__tagline fade-on-scroll fade-left" id="typewriter-text" aria-live="polite"></div>
+                <div class="hero__buttons fade-on-scroll fade-up">
+                    <a href="https://n2133024.yclients.com/" target="_blank" class="btn btn--primary btn--pulse" rel="noopener noreferrer">ЗАПИСАТЬСЯ ОНЛАЙН</a>
+                    <a href="#services" class="btn btn--outline-light">СМОТРЕТЬ УСЛУГИ</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-ticker">
+            <div class="ticker-wrap" aria-label="Бегущая строка с преимуществами. Нажмите для паузы, ещё раз нажмите для воспроизведения" role="region">
+                <div class="ticker" aria-live="polite">
+                    <div class="ticker__content">
+                        <span class="ticker__item">✔️ ОПАСНОЕ БРИТЬЕ</span>
+                        <span class="ticker__item">✔️ МУЖСКИЕ СТРИЖКИ</span>
+                        <span class="ticker__item">✔️ МОДЕЛИРОВАНИЕ БОРОДЫ</span>
+                        <span class="ticker__item">✔️ КАМУФЛЯЖ СЕДИНЫ</span>
+                        <span class="ticker__item">✔️ 7 ДНЕЙ В НЕДЕЛЮ</span>
+                        <span class="ticker__item">✔️ ОТ 400 ₽</span>
+                        <span class="ticker__item">✔️ 10+ ЛЕТ МАСТЕРСТВА</span>
+                        <span class="ticker__item">✔️ ОПАСНОЕ БРИТЬЕ</span>
+                        <span class="ticker__item">✔️ МУЖСКИЕ СТРИЖКИ</span>
+                        <span class="ticker__item">✔️ МОДЕЛИРОВАНИЕ БОРОДЫ</span>
+                        <span class="ticker__item">✔️ КАМУФЛЯЖ СЕДИНЫ</span>
+                        <span class="ticker__item">✔️ 7 ДНЕЙ В НЕДЕЛЮ</span>
+                        <span class="ticker__item">✔️ ОТ 400 ₽</span>
+                        <span class="ticker__item">✔️ 10 ЛЕТ МАСТЕРСТВА</span>
+                    </div>
+                    <div class="ticker__content">
+                        <span class="ticker__item">✔️ ОПАСНОЕ БРИТЬЕ</span>
+                        <span class="ticker__item">✔️ МУЖСКИЕ СТРИЖКИ</span>
+                        <span class="ticker__item">✔️ МОДЕЛИРОВАНИЕ БОРОДЫ</span>
+                        <span class="ticker__item">✔️ КАМУФЛЯЖ СЕДИНЫ</span>
+                        <span class="ticker__item">✔️ 7 ДНЕЙ В НЕДЕЛЮ</span>
+                        <span class="ticker__item">✔️ ОТ 400 ₽</span>
+                        <span class="ticker__item">✔️ 10+ ЛЕТ МАСТЕРСТВА</span>
+                        <span class="ticker__item">✔️ ОПАСНОЕ БРИТЬЕ</span>
+                        <span class="ticker__item">✔️ МУЖСКИЕ СТРИЖКИ</span>
+                        <span class="ticker__item">✔️ МОДЕЛИРОВАНИЕ БОРОДЫ</span>
+                        <span class="ticker__item">✔️ КАМУФЛЯЖ СЕДИНЫ</span>
+                        <span class="ticker__item">✔️ 7 ДНЕЙ В НЕДЕЛЮ</span>
+                        <span class="ticker__item">✔️ ОТ 400 ₽</span>
+                        <span class="ticker__item">✔️ 10 ЛЕТ МАСТЕРСТВА</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" aria-labelledby="services-heading">
+        <div class="container">
+            <h2 id="services-heading" class="section__title fade-on-scroll fade-right">ПРЕМИУМ УСЛУГИ</h2>
+            
+            <div class="services-grid" role="group" aria-label="Список услуг">
+                <div class="service-card fade-on-scroll fade-up" data-service="s28340001" data-price="1900" tabindex="0" role="button" aria-label="Мужская стрижка, цена 1900 рублей. Нажмите Пробел или Enter для выбора.">
+                    <div class="icon-wrapper">
+                        <span class="fas fa-cut service-card__icon" aria-hidden="true"></span>
+                    </div>
+                    <h3 class="service-card__title">Мужская стрижка</h3>
+                    <div class="service-card__price">1 900 ₽</div>
+                    <p class="service-card__desc">Машинки и ножницы, мытьё головы до и после, укладка профессиональной косметикой.</p>
+                </div>
+                <div class="service-card fade-on-scroll fade-up" data-service="s28340043" data-price="1400" tabindex="0" role="button" aria-label="Стрижка машинкой, цена 1400 рублей. Нажмите Пробел или Enter для выбора.">
+                    <div class="icon-wrapper">
+                        <span class="fas fa-crop-alt service-card__icon" aria-hidden="true"></span>
+                    </div>
+                    <h3 class="service-card__title">Стрижка машинкой</h3>
+                    <div class="service-card__price">1 400 ₽</div>
+                    <p class="service-card__desc">Две насадки, мытьё головы до и после, профессиональный уход.</p>
+                </div>
+                <div class="service-card fade-on-scroll fade-up" data-service="s28340082" data-price="1600" tabindex="0" role="button" aria-label="Моделирование бороды и бритьё, цена 1600 рублей. Нажмите Пробел или Enter для выбора.">
+                    <div class="icon-wrapper">
+                        <span class="fas fa-fist-raised service-card__icon" aria-hidden="true"></span>
+                    </div>
+                    <h3 class="service-card__title">Моделирование бороды / Бритьё</h3>
+                    <div class="service-card__price">1 600 ₽</div>
+                    <p class="service-card__desc">Создание формы, ножницы, машинка, шейвер, шаветт. Распаривание, массаж лица, компресс.</p>
+                </div>
+                <div class="service-card fade-on-scroll fade-up" data-service="s28340124" data-price="1600" tabindex="0" role="button" aria-label="Бритье с опасным лезвием, цена 1600 рублей. Нажмите Пробел или Enter для выбора.">
+                    <div class="icon-wrapper">
+                        <span class="fas fa-hand-holding-heart service-card__icon" aria-hidden="true"></span>
+                    </div>
+                    <h3 class="service-card__title">Бритье опасным лезвием</h3>
+                    <div class="service-card__price">1 600 ₽</div>
+                    <p class="service-card__desc">Чистовое бритьё с распариванием, шаветкой, холодный компресс, профессиональная косметика.</p>
+                </div>
+                <div class="service-card fade-on-scroll fade-up" data-service="s28340154" data-price="400" tabindex="0" role="button" aria-label="Коррекция воском, цена 400 рублей. Нажмите Пробел или Enter для выбора.">
+                    <div class="icon-wrapper">
+                        <span class="fas fa-fire service-card__icon" aria-hidden="true"></span>
+                    </div>
+                    <h3 class="service-card__title">Коррекция воском</h3>
+                    <div class="service-card__price">400 ₽</div>
+                    <p class="service-card__desc">Удаление волос теплым воском премиум брендов. Нос / уши.</p>
+                </div>
+                <div class="service-card fade-on-scroll fade-up" data-service="s28340217" data-price="1500" tabindex="0" role="button" aria-label="Камуфляж седины, цена 1500 рублей. Нажмите Пробел или Enter для выбора.">
+                    <div class="icon-wrapper">
+                        <span class="fas fa-palette service-card__icon" aria-hidden="true"></span>
+                    </div>
+                    <h3 class="service-card__title">Камуфляж седины</h3>
+                    <div class="service-card__price">1 500 ₽</div>
+                    <p class="service-card__desc">Тонирование бороды и волос, естественный вид.</p>
+                </div>
+            </div>
+
+            <div class="services-selection" id="servicesSelection">
+                <div class="services-selection__badges" id="selectionBadges"></div>
+                <div class="services-selection__summary">
+                    <span class="label">Выбрано услуг:</span>
+                    <span class="count" id="selectedCount">0</span>
+                    <span class="divider">|</span>
+                    <span class="label">Итого:</span>
+                    <span class="total" id="selectedTotal">0 ₽</span>
+                </div>
+            </div>
+
+            <div class="services-footer">
+                <a href="https://n2133024.yclients.com/" target="_blank" id="bookingLink" class="btn btn--primary btn--pulse booking-link" rel="noopener noreferrer">
+                    <span class="fas fa-cut" aria-hidden="true"></span> ЗАПИСАТЬСЯ
+                </a>
+                <span class="visually-hidden">Ссылка для записи на выбранные услуги</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="parallax-combined" class="section--parallax" aria-label="О нас, статистика и преимущества">
+        <div class="section__bg" id="parallaxBg" aria-hidden="true"></div>
+        <div class="container container-stats">
+            <div class="stats-grid">
+                <div class="stat-item fade-on-scroll fade-up">
+                    <div class="stat-item__number" id="expCounter" aria-live="polite">0</div>
+                    <p>ЛЕТ ОПЫТА</p>
+                </div>
+                <div class="stat-item fade-on-scroll fade-up">
+                    <div class="stat-item__number" id="clientsCounter" aria-live="polite">0</div>
+                    <p>ДОВОЛЬНЫХ КЛИЕНТОВ</p>
+                </div>
+                <div class="stat-item fade-on-scroll fade-up">
+                    <div class="stat-item__number" id="servicesCounter" aria-live="polite">0</div>
+                    <p>ВИДОВ УСЛУГ</p>
+                </div>
+            </div>
+            <h2 class="section__title fade-on-scroll fade-right">ПРЕИМУЩЕСТВА</h2>
+
+            <div class="slider-grid">
+                <button class="slider-nav-btn" id="sliderPrevBtn">
+                    <span class="fas fa-chevron-left"></span>
+                </button>
+                <div class="features-slider" id="featuresSlider">
+                    <div class="features-slider__track" id="featuresScroll">
+                        <div class="feature-card">
+                            <span class="fas fa-cut feature-card__icon"></span>
+                            <h3 class="feature-card__title">Индивидуальный стиль</h3>
+                            <p class="feature-card__text">Подбор образа под клиента</p>
+                        </div>
+                        <div class="feature-card">
+                            <span class="fas fa-flask feature-card__icon"></span>
+                            <h3 class="feature-card__title">Premium косметика</h3>
+                            <p class="feature-card__text">Профессиональные средства</p>
+                        </div>
+                        <div class="feature-card">
+                            <span class="fas fa-shield-alt feature-card__icon"></span>
+                            <h3 class="feature-card__title">Одноразовые лезвия</h3>
+                            <p class="feature-card__text">Стерильность и безопасность</p>
+                        </div>
+                        <div class="feature-card">
+                            <span class="fas fa-eye feature-card__icon"></span>
+                            <h3 class="feature-card__title">Массаж лица</h3>
+                            <p class="feature-card__text">Расслабление после бритья</p>
+                        </div>
+                        <div class="feature-card">
+                            <span class="fas fa-temperature-low feature-card__icon"></span>
+                            <h3 class="feature-card__title">Холодный компресс</h3>
+                            <p class="feature-card__text">Снятие раздражения</p>
+                        </div>
+                        <div class="feature-card">
+                            <span class="fas fa-clock feature-card__icon"></span>
+                            <h3 class="feature-card__title">Без выходных</h3>
+                            <p class="feature-card__text">Ежедневно с 09:00 до 22:00</p>
+                        </div>
+                        <div class="feature-card">
+                            <span class="fas fa-credit-card feature-card__icon"></span>
+                            <h3 class="feature-card__title">Удобная оплата</h3>
+                            <p class="feature-card__text">Карта, наличные, QR-код</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="slider-nav-btn" id="sliderNextBtn">
+                    <span class="fas fa-chevron-right"></span>
+                </button>
+            </div>
+
+            <h2 class="section__title fade-on-scroll fade-left">НАШЫ РАБОТЫ</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item fade-on-scroll fade-scale" onclick="openGalleryModal(this.querySelector('img').src, this.querySelector('img').alt)">
+                    <picture>
+                        <source srcset="images/our_works/1/1-360px.avif" type="image/avif">
+                        <source srcset="images/our_works/1/1-360px.webp" type="image/webp">
+                        <img class="gallery-item__img" src="images/our_works/1/1.jpg" alt="Фото работы: мужская стрижка" loading="lazy" width="360" height="360">
+                    </picture>
+                </div>
+                <div class="gallery-item fade-on-scroll fade-scale" onclick="openGalleryModal(this.querySelector('img').src, this.querySelector('img').alt)">
+                    <picture>
+                        <source srcset="images/our_works/2/2-360px.avif" type="image/avif">
+                        <source srcset="images/our_works/2/2-360px.webp" type="image/webp">
+                        <img class="gallery-item__img" src="images/our_works/2/2.jpg" alt="Фото работы: моделирование бороды" loading="lazy" width="360" height="360">
+                    </picture>
+                </div>
+                <div class="gallery-item fade-on-scroll fade-scale" onclick="openGalleryModal(this.querySelector('img').src, this.querySelector('img').alt)">
+                    <picture>
+                        <source srcset="images/our_works/3/3-360px.avif" type="image/avif">
+                        <source srcset="images/our_works/3/3-360px.webp" type="image/webp">
+                        <img class="gallery-item__img" src="images/our_works/3/3.jpg" alt="Фото работы: бритье опасной бритвой" loading="lazy" width="360" height="360">
+                    </picture>
+                </div>
+                <div class="gallery-item fade-on-scroll fade-scale" onclick="openGalleryModal(this.querySelector('img').src, this.querySelector('img').alt)">
+                    <picture>
+                        <source srcset="images/our_works/4/4-360px.avif" type="image/avif">
+                        <source srcset="images/our_works/4/4-360px.webp" type="image/webp">
+                        <img class="gallery-item__img" src="images/our_works/4/4.jpg" alt="Фото работы: стильная укладка" loading="lazy" width="360" height="360">
+                    </picture>
+                </div>
+            </div>
+            <p class="gallery-caption">Мастера создают стиль, которому доверяют.</p>
+        </div>
+    </section>
+
+    <div class="gallery-modal" id="galleryModal" onclick="closeGalleryModal()">
+        <div class="gallery-modal__content" onclick="event.stopPropagation()">
+            <img class="gallery-modal__img" id="galleryModalImg" src="" alt="" onclick="closeGalleryModal()">
+            <button class="gallery-modal__close" onclick="closeGalleryModal()" aria-label="Закрыть">&times;</button>
+        </div>
+    </div>
+
+    <section id="info" aria-labelledby="contacts-heading">
+        <div class="container">
+            <h2 id="contacts-heading" class="section__title fade-on-scroll fade-right">КОНТАКТЫ</h2>
+            <div class="contacts-top-row">
+                <div class="contacts-address fade-on-scroll fade-left">
+                    <div class="icon-wrapper">
+                        <span class="fas fa-map-marker-alt"></span>
+                    </div>
+                    <h3 class="contacts__title">АДРЕС</h3>
+                    <div class="address-detail">Россия, г. Омск, 644043<br>ул. Фрунзе 1 корпус 4, павильон 23.<br><br><strong>Как пройти:</strong> ТЦ Миллениум, после входа налево у фонтана, 2 этаж направо после эскалатора.</div>
+                </div>
+                <div class="contacts-map fade-on-scroll fade-right">
+                    <div class="map-container">
+                        <iframe 
+                            id="map_787245062" 
+                            frameborder="0" 
+                            width="100%" 
+                            height="600px" 
+                            src="https://makemap.2gis.ru/widget?data=eJyNkM1ugzAQhN_FPQZFJphAkHJojUpQLAq0UptWOdDgUEcORsbkV3n3LkS9dy-2Zna_Xc0VKV1yzcuIqz03WvAWBV9XZM4NRwF65oXpNEcWarRquDaDD7YwsvfxMs3kjOZ4GWa1ePLjBP4szKuEnjD7gDeKMfOyw3E-B0jJ240WjRGqhuF08Tj6N-AcZq2AHkN9vFpknaF2_LJ8lBS0JAox-86rkk4x22XmFebLiOJVmHUJnWCms44eK8wWPZfgFct3SZTHww6v10aYveXicjxsQtIfulFSaTjxYbvFUKBc4rrkJxTY-K9uFqruoZ2HSO6JpUrUZiBAsKIuzBCo54wd1_WJZ7lkPJs5UGuYFyUAHce-rS20L5pUteKezRXJwqBgaHanjo8nZOZ7NiEWkr3f84htT-yp5wAWzlNq37MAChErKd9_OJefg2p0x2-_aLyVoA" 
+                            sandbox="allow-scripts allow-same-origin allow-popups"
+                            loading="lazy"
+                            tabindex="-1"
+                            aria-label="Карта проезда к барбершопу УЗБРО"
+                        ></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="contacts-bottom-row">
+                <div class="contacts-worktime fade-on-scroll fade-up">
+                    <div class="icon-wrapper">
+                        <span class="far fa-clock"></span>
+                    </div>
+                    <h3 class="contacts__title">РЕЖИМ РАБОТЫ</h3>
+                    <div class="work-time">Ежедневно с 09:00 до 22:00<br>Без выходных.</div>
+                    <div class="contact-phone">
+                        <div class="inline-icon">
+                            <span class="fas fa-phone-alt"></span>
+                        </div>
+                        <strong><a href="tel:+79069935630" class="contacts-link">+7‒906‒993‒56‒30</a></strong>
+                    </div>
+                    <div class="contact-online">
+                        <div class="inline-icon">
+                            <span class="fas fa-globe"></span>
+                        </div>
+                        Онлайн-запись: <a href="https://n2133024.yclients.com/" target="_blank" class="contacts-link-underline" rel="noopener noreferrer">yclients.com</a>
+                    </div>
+                </div>
+                <div class="contacts-payment fade-on-scroll fade-up">
+                    <div class="icon-wrapper">
+                        <span class="fas fa-credit-card"></span>
+                    </div>
+                    <h3 class="contacts__title">СПОСОБЫ ОПЛАТЫ</h3>
+                    <div class="payment-methods">
+                        <div class="payment-item">
+                            <div class="icon-wrapper">
+                                <span class="fas fa-credit-card"></span>
+                            </div>
+                            <div>
+                                Оплата картой
+                                <div class="payment-logos">
+                                    <span class="payment-logos__item payment-logos__item--mir">
+                                        <img src="icons/payment_systems/mir-logo.svg" alt="МИР" loading="lazy" width="52" height="28">
+                                    </span>
+                                    <span class="payment-logos__item payment-logos__item--sber">
+                                        <img src="icons/payment_systems/sber-pay-logo.svg" alt="СберПэй" loading="lazy" width="80" height="28">
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="payment-item">
+                            <div class="icon-wrapper">
+                                <span class="fas fa-money-bill-wave"></span>
+                            </div> Наличный расчёт
+                        </div>
+                        <div class="payment-item">
+                            <div class="icon-wrapper">
+                                <span class="fas fa-qrcode"></span>
+                            </div> Оплата по QR-коду
+                        </div>
+                    </div>
+                </div>
+                <div class="contacts-social fade-on-scroll fade-up">
+                    <div class="icon-wrapper">
+                        <span class="fas fa-users"></span>
+                    </div>
+                    <h3 class="contacts__title">МЫ В СЕТЯХ</h3>
+                    <div class="social-contacts">
+                        <a href="https://api.whatsapp.com/send/?phone=79069935630" target="_blank" class="social-link">
+                            <div class="social-link__icon">
+                                <span class="fab fa-whatsapp"></span>
+                            </div> WhatsApp
+                        </a>
+                        <a href="https://t.me/+79069935630" target="_blank" class="social-link">
+                            <div class="social-link__icon">
+                                <span class="fab fa-telegram"></span>
+                            </div> Telegram
+                        </a>
+                        <a href="https://max.ru/u/f9LHodD0cOIP6p9mMuXI1ziWOqXj6xdq-RDZaf43ddl31hostY_dmT1FVTA" target="_blank" class="social-link">
+                            <div class="social-link__icon">
+                                <img class="img_max" src="./icons/max.svg" alt="Max" loading="lazy">
+                            </div> Max
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews" aria-labelledby="reviews-heading">
+        <div class="container">
+            <h2 id="reviews-heading" class="section__title fade-on-scroll fade-left">ЧЕСТНОЕ МНЕНИЕ</h2>
+            <div class="reviews-grid">
+                <div class="reviews-links-col fade-on-scroll fade-left">
+                    <p class="review-link-text">Оцени нашу работу и поделись впечатлениями.</p>
+                    <div class="master-photo fade-on-scroll fade-up">
+                        <picture>
+                            <source srcset="images/masters/dmitriy/dmitriy-360px.avif" type="image/avif">
+                            <source srcset="images/masters/dmitriy/dmitriy-360px.webp" type="image/webp">
+                            <img class="master-photo__img" src="images/masters/dmitriy/dmitriy.jpg" alt="Мастер Дмитрий - основатель барбершопа УЗБРО" loading="lazy" width="360" height="360">
+                        </picture>
+                        <p class="master-photo__text"><span>Дмитрий</span> — Топ-барбер! <br> Задает тренды, выполняет сложные креативные стрижки, отлично подбирает стиль и дает глубокие рекомендации по уходу. Основатель барбершопа УЗБРО</p>
+                    </div>
+                    <div class="reviews-links-grid">
+                        <div class="review-link">
+                            <a href="https://2gis.ru/omsk/firm/70000001113692596/tab/reviews/addreview?m=73.356922%2C54.993597%2F16" target="_blank" class="btn btn--primary" rel="noopener noreferrer nofollow">
+                                <span class="fas fa-star"></span> ОТЗЫВ НА 2ГИС
+                            </a>
+                        </div>
+                        <div class="review-link">
+                            <a href="https://yandex.ru/maps/org/uzbro/221338028379/reviews/" target="_blank" class="btn btn--primary" rel="noopener noreferrer nofollow">
+                                <span class="fas fa-star"></span> ОТЗЫВ НА Yandex
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews-content-col fade-on-scroll fade-right">
+                    <span class="fas fa-quote-right quote-icon"></span>
+                    <p class="reviews-text" lang="ru">"Пришёл первый раз по рекомендации. Не пожалел! Мастер очень внимательный, всё объяснил, подобрал форму под мой тип лица. Результат превзошёл ожидания. Спасибо за качественную работу!"</p>
+                    <p class="review-author" lang="ru">— Артём Н.</p>
+                    <div class="brutal-divider reviews-divider"></div>
+                    <p class="reviews-text" lang="ru">"Попал случайно, когда искал барбера поблизости. Теперь хожу только сюда. Мастер не просто стрижёт, а создаёт образ. Удобное расположение в ТЦ, всегда чисто и уютно. Однозначно 5 звёзд!"</p>
+                    <p class="review-author" lang="ru">— Денис Т.</p>
+                    <div class="brutal-divider reviews-divider"></div>
+                    <p class="reviews-text" lang="ru">"Первый раз делал бритьё опасной бритвой — переживал, но мастер сделал всё идеально! Всё аккуратно, учли все пожелания. Кожа гладкая, без раздражения. Теперь буду приходить сюда регулярно. Спасибо!"</p>
+                    <p class="review-author" lang="ru">— Илья Р.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="booking-wrapper" aria-labelledby="booking-heading">
+        <div class="container">
+            <div class="booking-section fade-on-scroll fade-up">
+                <div class="booking-grid">
+                    <div class="booking-content">
+                        <h3 id="booking-heading" class="booking-content__title">ЗАПИСЫВАЙСЯ СЕЙЧАС</h3>
+                        <p class="booking-content__text">Мастера ждёт тебя. Брутальный стиль и мужской характер.</p>
+                        <a href="https://n2133024.yclients.com/" target="_blank" class="btn btn--primary btn--pulse booking-link" rel="noopener noreferrer">
+                            <span class="fas fa-cut"></span> ЗАПИСАТЬСЯ
+                        </a>
+                    </div>
+                    <div class="booking-qr">
+                        <picture>
+                            <source srcset="images/qr-code/qr-code-360px.avif" type="image/avif">
+                            <source srcset="images/qr-code/qr-code-360px.webp" type="image/webp">
+                            <img class="booking-qr__img" src="images/qr-code/qr-code.jpg" alt="QR-код для быстрой записи в барбершоп УЗБРО" loading="lazy" width="360" height="360">
+                        </picture>
+                    </div>
+                </div>
+                <div class="booking-footer">
+                    <div class="brutal-divider brutal-divider--small"></div>
+                    <div class="booking-footer-text">
+                        <span class="fas fa-shield-alt"></span> Без предоплаты, карта / наличные / QR-код
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer" role="contentinfo">
+    <div class="container">
+        <p class="footer__text">© 2026 УЗБРО БАРБЕРШОП — Омск, ТЦ Миллениум. Улица Фрунзе 1 корпус 4, павильон 23 | <span><a href="tel:+79069935630" class="footer-link-accent">Телефон: +7‒906‒993‒56‒30</a></span></p>
+        <p class="footer__text"><span>ИП Тухтасинов Дилшоджон Орифжон Угли⁠</span> <span>ОГРНИП: 326554300039339</span> <span>ИНН: 772174839602</span></p>
+        <p class="footer__text">
+            <a href="cookie-policy.html" class="footer__link">Политика cookie</a> |
+            <a href="privacy-policy.html" class="footer__link">Политика конфиденциальности</a> |
+            <a href="oferta.html" class="footer__link">Публичная оферта</a>
+            <button class="data-control-btn" id="dataControlBtn">
+                <span class="fas fa-database"></span> Управление данными
+            </button>
+        </p>
+    </div>
+</footer>
+
+<button class="scroll-to-top" id="scrollToTopBtn" aria-label="Прокрутить страницу вверх, в начало">
+    <svg class="scroll-progress-ring" width="60" height="60" viewBox="0 0 60 60">
+        <circle class="scroll-progress-ring__circle-bg" cx="30" cy="30" r="26" stroke-width="3" fill="none" />
+        <circle class="scroll-progress-ring__circle" cx="30" cy="30" r="26" stroke-width="3" fill="none" stroke-dasharray="163.3628" stroke-dashoffset="163.3628" />
+    </svg>
+    <span class="scroll-to-top__icon fas fa-arrow-up"></span>
+</button>
+
+<div id="pwaTopBanner" class="pwa-top-banner hide">
+    <div class="pwa-top-banner__text">
+        <span>📲</span>
+        Установите приложение "УЗБРО" для быстрой записи
+    </div>
+    <button id="pwaInstallBtn" class="pwa-top-banner__btn">Установить</button>
+    <button id="pwaCloseBanner" class="pwa-top-banner__close">✕</button>
+</div>
+
+<!-- COOKIE BANNER - БЕЗ ИНЛАЙН-СТИЛЕЙ -->
+<div class="cookie-banner" id="cookieBanner" role="dialog" aria-label="Настройки cookie" aria-modal="true">
+    <div class="cookie-banner__container">
+        <div class="cookie-banner__text">
+            🍪 Мы используем файлы cookie для улучшения работы сайта. 
+            Продолжая использовать сайт, вы соглашаетесь с нашей 
+            <a href="/cookie-policy.html" target="_blank">политикой обработки cookie</a>
+            и <a href="/privacy-policy.html" target="_blank">политикой конфиденциальности</a>.
+        </div>
+        <div class="cookie-banner__buttons">
+            <button class="cookie-banner__btn cookie-banner__btn--settings" id="cookieSettingsBtn">
+                <span class="btn-icon">⚙️</span>
+                <span class="btn-text">Настройки</span>
+            </button>
+            <button class="cookie-banner__btn cookie-banner__btn--decline" id="cookieDeclineBtn">
+                ❌ Отказаться
+            </button>
+            <button class="cookie-banner__btn cookie-banner__btn--accept" id="cookieAcceptBtn">
+                ✅ Принять всё
+            </button>
+        </div>
+    </div>
+</div>
+
+<div class="cookie-settings" id="cookieSettings">
+    <div class="cookie-settings__modal">
+        <h3 class="cookie-settings__title">⚙️ Настройки файлов cookie</h3>
+        <p class="cookie-settings__desc">
+            Выберите, какие типы файлов cookie разрешить. Обязательные cookie всегда включены.
+        </p>
+
+        <div class="cookie-settings__option">
+            <div>
+                <div class="cookie-settings__option-label">🔒 Обязательные</div>
+                <div class="cookie-settings__option-desc">Необходимы для работы сайта</div>
+            </div>
+            <label class="toggle">
+                <input type="checkbox" checked disabled>
+                <span class="toggle__slider"></span>
+            </label>
+        </div>
+
+        <div class="cookie-settings__option">
+            <div>
+                <div class="cookie-settings__option-label">📊 Аналитические</div>
+                <div class="cookie-settings__option-desc">Сбор статистики для улучшения сайта</div>
+            </div>
+            <label class="toggle">
+                <input type="checkbox" id="cookieAnalytics" checked>
+                <span class="toggle__slider"></span>
+            </label>
+        </div>
+
+        <div class="cookie-settings__option">
+            <div>
+                <div class="cookie-settings__option-label">🎯 Маркетинговые</div>
+                <div class="cookie-settings__option-desc">Персонализированная реклама</div>
+            </div>
+            <label class="toggle">
+                <input type="checkbox" id="cookieMarketing" checked>
+                <span class="toggle__slider"></span>
+            </label>
+        </div>
+
+        <div class="cookie-settings__option">
+            <div>
+                <div class="cookie-settings__option-label">⚡ Функциональные</div>
+                <div class="cookie-settings__option-desc">Запоминание ваших предпочтений (тема, язык)</div>
+            </div>
+            <label class="toggle">
+                <input type="checkbox" id="cookieFunctional" checked>
+                <span class="toggle__slider"></span>
+            </label>
+        </div>
+
+        <div class="cookie-settings__actions">
+            <button class="cookie-settings__btn cookie-settings__btn--close" id="cookieSettingsClose">
+                ✕ Закрыть
+            </button>
+            <button class="cookie-settings__btn cookie-settings__btn--save" id="cookieSettingsSave">
+                💾 Сохранить настройки
+            </button>
+        </div>
+    </div>
+</div>
+
+<div class="data-modal" id="dataModal">
+    <div class="data-modal__content">
+        <div class="data-modal__title">
+            <span class="fas fa-database"></span>
+            Управление данными
+        </div>
+        
+        <div class="data-modal__section">
+            <div class="data-modal__section-title">📊 Какие данные мы собираем</div>
+            <ul class="data-list">
+                <li class="data-list__item">
+                    <span class="label"><span>🌓</span> Тема оформления</span>
+                    <span class="badge" id="themeBadge">тёмная</span>
+                </li>
+                <li class="data-list__item">
+                    <span class="label"><span>🍪</span> Настройки cookie</span>
+                    <span class="badge" id="consentBadge">не принято</span>
+                </li>
+                <li class="data-list__item">
+                    <span class="label"><span>📱</span> IP-адрес</span>
+                    <span class="badge technical">обрабатывается</span>
+                </li>
+                <li class="data-list__item">
+                    <span class="label"><span>📄</span> Аналитические данные</span>
+                    <span class="badge" id="analyticsBadge">не активно</span>
+                </li>
+                <li class="data-list__item">
+                    <span class="label"><span>🎯</span> Маркетинговые данные</span>
+                    <span class="badge" id="marketingBadge">не активно</span>
+                </li>
+                <li class="data-list__item">
+                    <span class="label"><span>⚡</span> Функциональные cookie</span>
+                    <span class="badge" id="functionalBadge">не активно</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="data-modal__section">
+            <div class="data-modal__section-title">⚖️ Ваши права</div>
+            <ul class="rights-list">
+                <li class="rights-list__item">
+                    <span class="rights-list__icon">👁️</span>
+                    <span class="rights-list__text">
+                        <strong>Знать</strong> — все собираемые данные перечислены выше в этом окне
+                    </span>
+                </li>
+                <li class="rights-list__item">
+                    <span class="rights-list__icon">✋</span>
+                    <span class="rights-list__text">
+                        <strong>Отозвать согласие</strong> — через кнопку <span class="highlight-link">«Настройки»</span> в cookie-баннере
+                    </span>
+                </li>
+                <li class="rights-list__item">
+                    <span class="rights-list__icon">🗑️</span>
+                    <span class="rights-list__text">
+                        <strong>Удалить данные</strong> — нажмите кнопку <span class="highlight-link">«Удалить все данные»</span> ниже
+                    </span>
+                </li>
+                <li class="rights-list__item">
+                    <span class="rights-list__icon">📞</span>
+                    <span class="rights-list__text">
+                        <strong>Связаться</strong> — по телефону <a href="tel:+79069935630" class="highlight-link">+7‒906‒993‒56‒30</a>
+                    </span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="data-modal__section">
+            <div class="data-modal__section-title">🛠️ Действия</div>
+            <div class="data-modal__actions">
+                <button class="data-modal__btn data-modal__btn--close" id="dataModalClose">
+                    ✕ Закрыть
+                </button>
+                <button class="data-modal__btn data-modal__btn--reset" id="dataModalReset">
+                    🔄 Сбросить настройки cookie
+                </button>
+                <button class="data-modal__btn data-modal__btn--danger" id="dataModalDelete">
+                    🗑️ Удалить все данные
+                </button>
+            </div>
+            <p style="margin-top: 12px; font-size: 0.8rem; color: var(--text-muted);">
+                <strong>Внимание:</strong> Удаление всех данных сбросит тему оформления на тёмную и покажет баннер cookie при следующем посещении.
+            </p>
+        </div>
+    </div>
+</div>
+
+<div id="offlineIndicator" style="display:none; position:fixed; bottom:90px; left:38%; transform:translateX(-50%); background:#6b2a2a; color:#ff6b6b; padding:8px 20px; border-radius:30px; font-size:0.8rem; font-weight:600; z-index:9999; border:1px solid #ff6b6b; box-shadow:0 4px 20px rgba(0,0,0,0.5);">
+    📡 Нет интернета — сайт работает в офлайн-режиме
+</div>
+
+<script src="js/particles.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

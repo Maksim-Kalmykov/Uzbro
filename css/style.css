@@ -2055,6 +2055,22 @@ body.light-theme .pwa-top-banner {
     background: linear-gradient(135deg, #1a1a2e 0%, #2c3e50 100%);
 }
 
+/* PWA Banner - только для мобильных устройств */
+@media (min-width: 1025px) {
+    .pwa-top-banner {
+        display: none !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    .pwa-top-banner {
+        display: flex !important;
+    }
+    .pwa-top-banner.hide {
+        display: none !important;
+    }
+}
+
 .cookie-settings .toggle {
     position: relative;
     width: 52px;

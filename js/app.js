@@ -132,6 +132,10 @@ if (typeof particlesJS !== 'undefined') {
     let bannerTimeout = null;
     let bannerVisible = false;
 
+    function isMobileDevice() {
+        return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || window.innerWidth <= 1024;
+    }
+
     function isAppInstalled() {
         return window.matchMedia('(display-mode: standalone)').matches ||
             window.navigator.standalone === true;
@@ -159,6 +163,10 @@ if (typeof particlesJS !== 'undefined') {
             return;
         }
         if (!deferredPrompt) {
+            return;
+        }
+        if (!isMobileDevice()) {
+            banner.classList.add('hide');
             return;
         }
         banner.classList.remove('hide');
@@ -197,7 +205,7 @@ if (typeof particlesJS !== 'undefined') {
     window.addEventListener('beforeinstallprompt', (e) => {
         e.preventDefault();
         deferredPrompt = e;
-        if (!isAppInstalled()) {
+        if (!isAppInstalled() && isMobileDevice()) {
             showBanner();
         }
     });
@@ -215,7 +223,19 @@ if (typeof particlesJS !== 'undefined') {
         });
     }
 
+    window.addEventListener('resize', () => {
+        if (!isMobileDevice() && bannerVisible) {
+            hideBanner();
+        } else if (isMobileDevice() && deferredPrompt && !isAppInstalled() && !bannerVisible) {
+            showBanner();
+        }
+    });
+
     if (isAppInstalled()) {
+        if (banner) banner.classList.add('hide');
+    }
+
+    if (!isMobileDevice()) {
         if (banner) banner.classList.add('hide');
     }
 })();
